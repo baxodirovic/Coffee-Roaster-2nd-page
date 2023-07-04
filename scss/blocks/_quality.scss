@@ -1,0 +1,37 @@
+.quality__block {
+    display: flex;
+    border-radius: 10px;
+    background: #2C343E;
+    margin-top: -370px;
+}
+
+.quality__info {
+    width: 507px;
+    height: 350px;
+    margin-top: 50px;
+    margin-left: 85px;
+
+}
+
+.quality__headline {
+    font-size: 40px;
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px;
+    color: $color-text-white;
+}
+
+.quality__text {
+    font-size: 16px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    color: $color-text-white;
+}
+
+.bitmap__img {
+    border-radius: 10px;
+    margin-left: 750px;
+}
