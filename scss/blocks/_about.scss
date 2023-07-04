@@ -1,0 +1,32 @@
+.about__block {
+  height: 450px;
+	background-image: url(../../img/Object.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	padding-left: 80px;
+	padding-top: 110px;
+	margin-top: 15px;
+}
+
+.about__headline {
+	font-family: 'Fraunces 9pt';
+	font-weight: 900;
+	font-size: 40px;
+	line-height: 48px;
+	color: $color-text-white;
+	width: 445px;
+	margin-bottom: 5px;
+}
+
+.about__info {
+	font-family: 'Barlow';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	color: $color-text-white;
+	width: 410px;
+}

@@ -1,0 +1,27 @@
+.commitment__block {
+    @include dis-f;
+    margin-top: 100px;
+    gap: 222px;
+}
+
+.commitment__info {
+    width: 502px;
+}
+
+.commitment__headline {
+    color: $color-text-black;
+    font-size: 40px;
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px;
+}
+
+.commitment__text {
+    font-size: 16px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    color: $color-text-black;
+}
