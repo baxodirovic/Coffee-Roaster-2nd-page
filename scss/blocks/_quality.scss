@@ -9,6 +9,10 @@
       justify-content: center;
       height: 488px;
     }
+    @media (max-width:$phone) {
+      height: 509px;
+      margin-bottom: 100px;
+    }
 }
 
 .quality__info {
@@ -19,6 +23,12 @@
     @media (max-width:$table) {
       margin-left: 0px;
       margin-top: 200px;
+    }
+    @media (max-width:$phone) {
+      margin-top: 70px;
+      @include dis-f;
+      flex-direction: column;
+      width: 279px;
     }
 }
 
@@ -32,6 +42,9 @@
     @media (max-width:$table) {
       text-align: center;
     }
+    @media (max-width:$phone) {
+      font-size: 28px;
+    }
 }
 
 .quality__text {
@@ -44,6 +57,10 @@
     @media (max-width:$table) {
       text-align: center;
     }
+    @media (max-width:$phone) {
+      font-size: 15px;
+      width: 278px;
+    }
 }
 
 .bitmap__img {
@@ -54,5 +71,11 @@
       width: 573px;
       height: 320px;
       margin-bottom: 200px;
+    }
+    @media (max-width:$phone) {
+      width: 279px;
+      height: 156px;
+      margin-bottom: 290px;
+      margin-left: 50px;
     }
 }

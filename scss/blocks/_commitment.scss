@@ -6,6 +6,9 @@
     @media (max-width:$table) {
       gap: 60px;
     }
+    @media (max-width:$phone) {
+      flex-direction: column;
+    }
 }
 
 .coffee_img {
@@ -13,10 +16,17 @@
     width: 280px;
     height: 470px;
   }
+  @media (max-width:$phone) {
+    width: 327px;
+    height: 400px;
+  }
 }
 
 .commitment__info {
-    width: 502px;
+  width: 502px;
+  @media (max-width:$phone) {
+    width: 327px;
+  }
 }
 
 .commitment__headline {
@@ -26,6 +36,9 @@
     font-style: normal;
     font-weight: 900;
     line-height: 48px;
+    @media (max-width:$phone) {
+      text-align: center;
+    }
 }
 
 .commitment__text {
@@ -37,5 +50,9 @@
     color: $color-text-black;
     @media (max-width:$table) {
       width: 345px;
+    }
+    @media (max-width:$phone) {
+      width: 327px;
+      text-align: center;
     }
 }

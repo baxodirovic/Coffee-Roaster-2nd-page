@@ -15,6 +15,13 @@
     padding-top: 60px;
     padding-left: 15px;
   }
+  @media (max-width:$phone) {
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0px;
+    padding-top: 0px;
+  }
 }
 
 .about__headline {
@@ -25,6 +32,10 @@
 	color: $color-text-white;
 	width: 445px;
 	margin-bottom: 5px;
+  @media (max-width:$phone) {
+    font-size: 28px;
+    width: auto;
+  }
 }
 
 .about__info {
@@ -36,5 +47,10 @@
 	width: 410px;
   @media (max-width:$table) {
     width: 398px;
+  }
+  @media (max-width:$phone) {
+    font-size: 15px;
+    width: 263px;
+    text-align: center;
   }
 }

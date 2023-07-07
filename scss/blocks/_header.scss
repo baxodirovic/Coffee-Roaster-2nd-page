@@ -4,6 +4,12 @@
     justify-content: space-between;
 }
 
+.header__navbar {
+  @media (max-width:$phone) {
+    display: none;
+  }
+}
+
 .header__navbar ul {
     display: flex;
     align-items: center;
@@ -19,4 +25,11 @@
     letter-spacing: 0.923077px;
     text-transform: uppercase;
     color: #83888F;
+}
+
+.header__logo__img {
+  @media (max-width:$phone) {
+    width: 163px;
+    height: 18px;
+  }
 }

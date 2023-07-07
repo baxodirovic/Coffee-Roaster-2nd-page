@@ -13,6 +13,9 @@ body {
   @media (max-width:$table) {
     max-width: 768px;
   }
+  @media (max-width:$phone) {
+    max-width: 375px;
+  }
 }
 
 li {
