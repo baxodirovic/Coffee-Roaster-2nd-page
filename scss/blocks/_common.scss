@@ -3,13 +3,16 @@
 }
 
 body {
-    margin: 0 auto;
-    padding: 0;
+  margin: 0 auto;
+  padding: 0;
 }
 
 .container {
-    max-width: 1440px;
-    margin: 0 auto;
+  max-width: 1440px;
+  margin: 0 auto;
+  @media (max-width:$table) {
+    max-width: 768px;
+  }
 }
 
 li {

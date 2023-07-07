@@ -1,6 +1,9 @@
 .headquarter__block {
     margin-top: 150px;
     margin-left: 120px;
+    @media (max-width:$table) {
+      margin-left: 75px;
+    }
 }
 
 .headquarter__title {
@@ -17,6 +20,9 @@
     align-items: center;
     justify-content: flex-start;
     gap: 200px;
+    @media (max-width:$table) {
+      gap: 30px;
+    }
 }
 
 .headquarter__box {

@@ -10,6 +10,11 @@
 	padding-left: 80px;
 	padding-top: 110px;
 	margin-top: 15px;
+  @media (max-width:$table) {
+    height: 400px;
+    padding-top: 60px;
+    padding-left: 15px;
+  }
 }
 
 .about__headline {
@@ -29,4 +34,7 @@
 	line-height: 26px;
 	color: $color-text-white;
 	width: 410px;
+  @media (max-width:$table) {
+    width: 398px;
+  }
 }

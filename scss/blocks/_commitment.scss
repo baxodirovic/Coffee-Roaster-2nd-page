@@ -3,6 +3,16 @@
     margin-top: 100px;
     gap: 222px;
     margin-bottom: 150px;
+    @media (max-width:$table) {
+      gap: 60px;
+    }
+}
+
+.coffee_img {
+  @media (max-width:$table) {
+    width: 280px;
+    height: 470px;
+  }
 }
 
 .commitment__info {
@@ -25,4 +35,7 @@
     font-weight: 400;
     line-height: 26px;
     color: $color-text-black;
+    @media (max-width:$table) {
+      width: 345px;
+    }
 }
